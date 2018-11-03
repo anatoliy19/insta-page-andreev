@@ -6,19 +6,19 @@
 	margin-bottom: 70px;
 }
 
-.photo img{
+/*.photo img{    Это для слайдшоу (урок 2), для инста - закоммментировать
 	display: none;
-}
+}*/
 
 .instafeed {
 	width: 640px;
 	height: 620px;
-	overflow: hidden;
+	overflow: hidden; 
 	transition: opacity 1s ease-in, box-shadow 3s ease-in;
 	opacity: 0;
 }
 
-.instafeed a {
+.instafeed a {  
 	display: none;
 }
 

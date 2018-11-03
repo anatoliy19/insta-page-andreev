@@ -2,12 +2,14 @@ $(document).ready(function(){
 
 	var slideIndex = 0;
 
-	showPhotos();
+	 showPhotos();  
 
 	function showPhotos(){
 
 
-		var slides = $('.photo img');
+		// var slides = $('.photo img'); для урока 2
+		// для фото из инстаграма
+		var slides = $('#instafeed a');
 
 		// цикл для скрытия фото
 		for(i = 0; i < slides.length; i++){

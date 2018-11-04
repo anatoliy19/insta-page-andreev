@@ -1,9 +1,14 @@
-html,
+html{
+	min-height: 100%;
+	
+}
+/*html,  для слайдера fancybox, слайдер на jquery
 body {
 	height: 100%;
-}
+}*/
 
 body {
+	min-height: 100%;
 	font-family: 'PT Sans Narrow', sans-serif;
 	font-weight: 400;
 	color: #000000;
@@ -72,6 +77,7 @@ img {
 
 .copyright {
 	opacity: .5;
+	margin-bottom: 50px;
 } 
 
 .copyright p {

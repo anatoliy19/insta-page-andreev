@@ -18,18 +18,14 @@ function initAudioPlayer(){
 	$audioControl.click(function(){
 
 		if ( audio.paused){
-
 			audio.play();
 			$playBtn.parent().hide();
 			$pauseBtn.parent().show();
-
 		} else {
 			audio.pause();
 			$playBtn.parent().show();
 			$pauseBtn.parent().hide();
-
 		}
-
 	}); 
 }
 
